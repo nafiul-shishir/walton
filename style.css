@@ -1,0 +1,236 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: sans-serif;
+}
+.container{
+   color: white;
+   padding: 10px;
+
+}
+button{
+   background: blue;
+   border-radius: 5px;
+   border: none;
+   line-height: 18px;
+   color: white;
+   padding: 10px 26px;
+   cursor: pointer;
+   transition: all .2s ease-in-out;
+   
+}
+button:hover{
+   transform: scale(1.1);
+}
+
+footer h4 {
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 30px;
+   /* margin-left: 50px; */
+
+
+   color: blue;
+
+}
+footer ul {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   list-style:  none;
+   padding-left: 0;
+
+   color: gray;
+   /* margin: 50px; */
+}
+
+#copyright{
+   font-size: 14px;
+   line-height: 30px;
+   
+   margin-bottom: 0;
+   
+   padding-top: 5%;
+   color: black;
+}
+
+footer img{
+    /* The image used */
+    
+ 
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    object-fit: cover;
+
+}
+
+.intro{
+   height: 100vh;
+}
+ 
+ .intro img {
+   /* The image used */
+   background-image: url("scene1.jpg");
+ 
+   /* Full height */
+   height: 100%; 
+   width: 100%;
+ 
+   /* Center and scale the image nicely */
+   object-fit: cover;
+ }
+
+ .intro h1{
+    position: absolute;
+    color:white;
+    top:10%;
+    left:28%;
+    transform:translate(-10%,-60%);
+    font-size: 80px;
+ }
+ .intro p{
+   position: absolute;
+   color:gray;
+   top:20%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   font-size: 10px;
+}
+
+.part img {
+   /* The image used */
+   
+ 
+   /* Full height */
+   height: 100%; 
+   width: 100%;
+ 
+   /* Center and scale the image nicely */
+   object-fit: cover;
+ }
+
+ .part h1{
+    position: absolute;
+    color:white;
+    top:10%;
+    left:28%;
+    transform:translate(-10%,-60%);
+    font-size: 80px;
+ }
+ .part p{
+   position: absolute;
+   color:gray;
+   top:20%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   font-size: 10px;
+}
+.port img {
+   /* The image used */
+   
+ 
+   /* Full height */
+   height: 100%; 
+   width: 100%;
+ 
+   /* Center and scale the image nicely */
+   object-fit: cover;
+ }
+
+ .port h1{
+    position: absolute;
+    color:white;
+    top:10%;
+    left:28%;
+    transform:translate(-10%,-60%);
+    font-size: 80px;
+ }
+ .port p{
+   position: absolute;
+   color:gray;
+   top:20%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   font-size: 10px;
+}
+
+.hand img {
+   /* The image used */
+   
+ 
+   /* Full height */
+   height: 100%; 
+   width: 100%;
+ 
+   /* Center and scale the image nicely */
+   object-fit: cover;
+ }
+
+ .hand h1{
+    position: absolute;
+    color:white;
+    top:10%;
+    left:28%;
+    transform:translate(-10%,-60%);
+    font-size: 80px;
+ }
+ .hand p{
+   position: absolute;
+   color:gray;
+   top:20%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   font-size: 10px;
+}
+.last img {
+   /* The image used */
+   
+ 
+   /* Full height */
+   height: 100%; 
+   width: 100%;
+ 
+   /* Center and scale the image nicely */
+   object-fit: cover;
+ }
+
+ .last h1{
+    position: absolute;
+    color:white;
+    top:10%;
+    left:28%;
+    transform:translate(-10%,-60%);
+    font-size: 80px;
+ }
+ .last p{
+   position: absolute;
+   color:gray;
+   top:20%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   font-size: 10px;
+}
+
+
+
+
+
+section{
+   height:100vh;
+   color:black;
+}
+
+section h1{
+  
+      padding-top: 300px;
+      text-align: center;
+      font-size: 80px;
+    
+}
